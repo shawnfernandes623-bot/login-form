@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.outer-box{
+    width: 100vw;
+    height: 100vh;
+    background: rgba(255,255,55,0.88);
+    background-image: url(starry-night-reflection-stockcake.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+ }
+ .inner-box{
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+    padding: 20px 40px;
+    background: linear-gradient(to top left, #ffffff,#ffffff33);
+    background-color: #ffffffcc;
+    backdrop-filter: blur(8px);
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px #2773a5;
+    z-index: 2;
+    
+ }
+ .signup-header h1{
+    font-size: 2.5rem;
+    color: black;
+
+ }
+ .signup-header p{
+    font-size: y-large;
+    color: gray;
+ }
+ .signup-body{
+    margin: 20px 0;
+ }
+ .signup-body p{
+    margin: 10px 0;
+ }
+ .signup-body p label{
+    display: block;
+    font-weight: 600;
+ }
+ .signup-body p input{
+    width: 100%;
+    padding: 10px 0;
+    border: 2px solid #cccc;
+    border-radius: 5px;
+    font-weight: 800;
+
+ }
+ .signup-body p input[type="submit"]{
+    background-color: #7a5cff;
+    border-radius: 5px;
+    border-style: double;
+    border: none;
+    cursor: pointer;
+ }
+  .signup-body p input[type="submit"]:hover{
+    background-color: rgb(31, 171, 171);
+  }
+.signup-footer p{
+    color: black;
+    text-align: center;
+}
+.signup-footer p a{
+    color: aqua;
+    text-decoration-line: none;
+}
